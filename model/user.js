@@ -7,5 +7,5 @@ let userScheam = mongoose.Schema({
   mobileNo: Number
 })
 
-let User = new mongoose.model('usersCon', userScheam);
+let User = new mongoose.model('usersConswd', userScheam);
 module.exports  = User;
